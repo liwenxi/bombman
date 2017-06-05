@@ -1,6 +1,6 @@
 # bombman
 
-###Linux
-###curses
-###socket
-###pthread
+## Linux
+## curses
+## socket
+## pthread
