@@ -370,7 +370,7 @@ void *walk(){
 //接收服务器的消息，会调用talk_with_server，其中包含一个循环
 void *recive(){
 	int fd;
-	now_fd = fd=connect_to_server("hahac.local", 8080);	/*call the server*/
+	now_fd = fd=connect_to_server("MacBook-Pro-84.local", 9000);	/*call the server*/
 	if(fd==-1){
 		printf("no server!\n");
 		exit(1);	 				/*or die*/

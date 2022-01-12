@@ -76,7 +76,7 @@ int main(){
 	int sock, fd;                           /*socket and connection*/
 	pthread_t thread[10];
 	char buf[BUFSIZ];
-	sock = make_server_socket(8080);
+	sock = make_server_socket(9000);
 	if(sock==-1)
 		exit(1);
 	printf("%d\n", sock);
